@@ -38,7 +38,6 @@ int main()
         printf("Enter the name of the employee: ");
         fgets(s[i].name, sizeof(s[i].name), stdin);
        
-
         printf("Enter the post of the employee: ");
         fgets(s[i].post, sizeof(s[i].post), stdin);
         s[i].post[strcspn(s[i].post, "\n")] = '\0';
